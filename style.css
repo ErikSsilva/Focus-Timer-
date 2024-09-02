@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color: #323238;
+  --bg-color: #ffffff;
+  --button-bg-color: #e1e1e6;
+  --button-secondary: #9d021c;
+
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: var(--bg-color);
+  display: grid;
+  place-content: center;
+  color: var(--text-color);
+}
+
+#app {
+  width: 100%;
+  height: 100vh;
+  gap: 19.2rem;
+  place-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.flex {
+  display: flex;
+}
+
+#clock {
+  font-size: 14rem;
+  display: flex;
+  justify-content: center;
+}
+
+#controls {
+  justify-content: center;
+  gap: 4rem;
+}
+
+#controls button {
+  background-color: transparent;
+  border: none;
+  font-size: 4.8rem;
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.sr-only {
+  width: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  appearance: none;
+}
+
+html:not(.running) .ph-pause-circle,
+.running .ph-play-circle {
+  display: none;
+}
+
+#sound-controls {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3.2rem;
+  place-content: space-between;
+}
+
+#sound-controls button {
+  background-color: var(--button-bg-color);
+  border: none;
+  border-radius: 2.4rem;
+  font-size: 5.6rem;
+  color: var(--text-color);
+  cursor: pointer;
+  padding: 4.8rem;
+}
+
+#sound-controls .secondary {
+  color: var(--bg-color);
+  background-color: var(--button-secondary);
+}
+
+@media screen and (max-width: 860px) {
+  #app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

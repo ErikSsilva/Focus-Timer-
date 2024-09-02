@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Focus Timer - 2.0</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/FT-Icong-F.png"
+      type="image/x-svg"
+    />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script type="module" src="./src/main.js" defer></script>
+  </head>
+  <body>
+    <div id="app">
+      <section id="timer">
+        <div id="clock">
+          <span id="minutes">00</span>
+          <span>:</span>
+          <span id="seconds">00</span>
+        </div>
+
+        <div id="controls" class="flex">
+          <button data-action="toggleRunning" class="ph ph-play-circle">
+            <span class="sr-only">Iniciar timer</span>
+          </button>
+          <button data-action="toggleRunning" class="ph ph-pause-circle">
+            <span class="sr-only">Pausar timer</span>
+          </button>
+          <button data-action="reset" class="ph ph-stop-circle">
+            <span class="sr-only">Reiniciar timer</span>
+          </button>
+          <button data-action="plusMinutes" class="ph ph-plus-circle">
+            <span class="sr-only">Adicionar 5 minutos</span>
+          </button>
+          <button data-action="minusMinutes" class="ph ph-minus-circle">
+            <span class="sr-only">Remover 5 minutos</span>
+          </button>
+        </div>
+      </section>
+
+      <section id="sound-controls">
+        <button data-action="forestSound" class="ph ph-tree" id="forest">
+          <span class="sr-only">Sons de floresta</span>
+        </button>
+        <button data-action="rainSound" class="ph ph-cloud-rain" id="rain">
+          <span class="sr-only">Sons de chuva</span>
+        </button>
+        <button
+          data-action="coffeshopSound"
+          class="ph ph-storefront"
+          id="coffeShop"
+        >
+          <span class="sr-only">Sons de cafeteria</span>
+        </button>
+        <button
+          data-action="campfireSound"
+          class="ph ph-campfire"
+          id="campfire"
+        >
+          <span class="sr-only">Sons de Lareira</span>
+        </button>
+      </section>
+    </div>
+  </body>
+</html>
