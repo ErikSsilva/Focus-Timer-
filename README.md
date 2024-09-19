@@ -22,3 +22,9 @@ To contribute to <project_name>, follow these steps:
 4. Push to the original branch: `git push origin <project_name> / <location>`
 5. Create a pull request.
 
+
+ ## 🧷 Built With
+
+* <img alt="Js" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+* <img alt="HTML" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+* <img alt="CSS" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
