@@ -7,7 +7,9 @@
 
 ##
 
-<img src="https://i.imgur.com/DKufZ9u.jpeg" alt="Focus Timer Logo" height=100>
+
+<img src="https://github.com/user-attachments/assets/2c1f2422-64c3-4a4e-a693-a22c16e70330" alt="Focus Timer Logo" >
+<img src="https://github.com/user-attachments/assets/54d79c4b-1ea3-4b77-94f6-f3aa15947114" alt="Focus Timer Logo" >
 
 
 ## 📫 Contributing to <project_name>
